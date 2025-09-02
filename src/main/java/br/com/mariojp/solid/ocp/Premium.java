@@ -1,6 +1,6 @@
 package br.com.mariojp.solid.ocp;
 
-public class Premium {
+public class Premium extends DiscountCalculator{
 	
 	public double apply(double amount, CustomerType type){
         switch (type){
